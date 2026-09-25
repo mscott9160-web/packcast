@@ -1,2 +1,4 @@
 .DS_Store
 .github/aw/logs/
+node_modules/
+dist/

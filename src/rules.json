@@ -1,0 +1,21 @@
+{
+  "base": [
+    { "name": "Toothbrush", "category": "Toiletries" },
+    { "name": "Phone charger", "category": "Electronics" },
+    { "name": "ID / passport", "category": "Documents" },
+    { "name": "Medications", "category": "Toiletries" },
+    { "name": "Underwear", "category": "Clothing", "duration": true },
+    { "name": "Socks", "category": "Clothing", "duration": true },
+    { "name": "Sleepwear", "category": "Clothing", "quantity": 1 }
+  ],
+  "activities": {
+    "Sightseeing": [{ "name": "Comfortable walking shoes", "category": "Footwear" }],
+    "Business": [{ "name": "Business outfit", "category": "Clothing" }, { "name": "Laptop", "category": "Electronics" }],
+    "Formal event": [{ "name": "Formal outfit", "category": "Clothing" }, { "name": "Dress shoes", "category": "Footwear" }],
+    "Hiking": [{ "name": "Hiking shoes", "category": "Footwear" }, { "name": "Daypack", "category": "Activity Gear" }, { "name": "Trail snacks", "category": "Activity Gear" }],
+    "Beach / pool": [{ "name": "Swimsuit", "category": "Clothing" }, { "name": "Beach cover-up", "category": "Clothing" }],
+    "Gym / running": [{ "name": "Workout clothes", "category": "Clothing" }, { "name": "Running shoes", "category": "Footwear" }],
+    "Dinner out": [{ "name": "Dinner outfit", "category": "Clothing" }],
+    "Snow activities": [{ "name": "Thermal base layer", "category": "Clothing" }, { "name": "Snow boots", "category": "Footwear" }]
+  }
+}

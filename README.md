@@ -1,4 +1,38 @@
-# AI-DLC Starter
+# PackCast
+
+PackCast is a mobile-first, weather-aware packing-list application built from the AI-DLC starter workflow. The current implementation includes trip setup, deterministic weather summaries, data-driven packing rules, an editable checklist, and localStorage persistence.
+
+## Run locally
+
+Install Node.js 20 or newer, then run:
+
+```sh
+npm install
+npm run dev
+```
+
+Useful checks:
+
+```sh
+npm test
+npm run build
+```
+
+The first implementation slice uses deterministic local weather data behind the documented provider boundary. Open-Meteo integration and historical climate averaging are the next weather-service slice.
+
+## AI-DLC workflow
+
+The product plan, design, and implementation boundaries are documented in:
+
+- [PackCast plan](docs/packcast-plan.md)
+- [PackCast design](docs/packcast-design.md)
+- [Workflow design canvas](docs/workflow-design-canvas.md)
+
+The repository also retains the reusable AI-DLC workflow definitions under `.github/workflows/`.
+
+## GitHub workflow
+
+Pull requests run the unit tests and production build through GitHub Actions. AI-DLC workflows remain human-gated: recommendations are pending until a maintainer reviews them, and automated workflows do not merge or deploy changes.
 
 A reusable, human-gated set of GitHub Agentic Workflows for the software development lifecycle.
 
