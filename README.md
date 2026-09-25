@@ -34,6 +34,8 @@ The repository also retains the reusable AI-DLC workflow definitions under `.git
 
 Pull requests run the unit tests and production build through GitHub Actions. AI-DLC workflows remain human-gated: recommendations are pending until a maintainer reviews them, and automated workflows do not merge or deploy changes.
 
+The `main` branch also builds and deploys the static app to GitHub Pages at `https://mscott9160-web.github.io/packcast/`.
+
 A reusable, human-gated set of GitHub Agentic Workflows for the software development lifecycle.
 
 ## Lifecycle
